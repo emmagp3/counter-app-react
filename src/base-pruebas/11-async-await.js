@@ -8,7 +8,7 @@ export const getImagen = async () => {
         return url;
 
     } catch (error) {
-        console.error(error);
+        // console.error(error);
         return 'No se encontró la imagen';
     }
 }
