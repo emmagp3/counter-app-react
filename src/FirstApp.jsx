@@ -18,13 +18,13 @@ export const FirstApp = ({
   return (
     // <Fragment>
     <> { /* Misma forma de agrupar */}
-      <h1>{ title }</h1>
+      <h1 data-testid="test-title">{ title }</h1>  
       <h2>{ subtitle }</h2>
       {/* <code>{JSON.stringify(newMessage)}</code> */}
-      <p>Soy un texto</p>
-      <p>Soy un texto</p>
-      <p>Soy un texto</p>
-      <p>Soy un texto</p>
+      <p>{ subtitle }</p>
+      <p>{ subtitle }</p>
+      <p>{ subtitle }</p>
+      <p>{ subtitle }</p>
     </>
     // </Fragment>
   );
@@ -37,5 +37,5 @@ FirstApp.propTypes = {
 
 FirstApp.defaultProps = {
   subtitle: "No hay subtítulo",
-  title: 'No hay título',
+  // title: 'No hay título',
 }
